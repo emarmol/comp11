@@ -1,0 +1,18 @@
+pos |  num[pos]     | curr |
+
+0   | dead squirrel | 0    |
+
+1   |       8       |  8   |
+
+2   |       10      |  18  |
+
+3   |       3       |  21  |
+
+4   |       2       |  23  |
+
+5   |       9       |  32  |
+
+5   |       0       |  32  |
+
+Key: curr is the running total sum of the numbers in the array num[].
+

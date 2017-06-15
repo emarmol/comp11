@@ -1,0 +1,19 @@
+#!/bin/sh
+#
+# get the stuff from lab11
+# share list-of-integer files from lab 10
+#
+	LAB=11
+	WHERE=`pwd | tr '[A-Z]' '[a-z]'`
+	case $WHERE in
+		*lab*$LAB)	;;
+		*)	echo "Please run this from your lab$LAB folder"
+			exit 1
+			;;
+	esac
+
+	cp /comp/11/files/lab$LAB/*.cpp        .
+	cp /comp/11/files/lab$LAB/*.h        .
+
+	ln -s /comp/11/files/lab10/list*        .
+	ln -s /comp/11/files/lab10/input*       .

@@ -1,0 +1,126 @@
+Function:
+
+main()- Purpose: to create an array called image[][] and digits[][], which
+	will read in the values for image height, and width. Digits[][]
+	is called upon as the template for basis of comparison between
+	the plate and the numbers stored in digits.cpp. The array
+	for digits reads in the digit number, height, and width. Main
+	will call the function analyze, which passes in two character
+	arrays.
+
+analyze()- Purpose:Calls the function string1()
+	Aguments:  passes in the two arrays, being the digits and the image
+		array. 
+	Effects: does not modify the array
+	Notes: Analyze and string1() are void functions.
+
+string1()- Purpose: This function will create 8 different strings for rows
+		0-7, being a one dimensional array, where string 0 is row 
+		0. Strings will be stored and made into an array (array1[]).
+		Calls function string2() passing in array1[] and other two
+		2 arrays.
+	Arguments: two arrays: image and digits
+	Returns: nothing-this is a void function
+	Effects: Does not effect original 2 arrays, creates a new one.
+	Note:this function is a void function.
+
+string2()-Purpose: Similar to string1() this function creates various strings 
+		for each row that is analyzed for the digits array. 
+		These 8 strings are create into array2[]. Calls function
+		horiz_spaces() to determine spacing between numbers for the
+		plate. Calls the function vert_spaces() for spacing between
+		numbers vertically. Stores this to be used in the function 
+		find num(), defined later. Calls functions compare_row1()
+		compare_col1(), compare_row2(), compare_col2(), which return
+		4 positions as integers. Calls find_num()->see function to see
+		what is passed in.String returned from find_num() is printed
+		using cout.
+	Arguments: The array from string1()=array1[]. And the two arrays
+		image[][] and digits[][]
+	Returns: string containing final number and position information
+	Effects: does not modify array, calls other functions to analyze
+		positions and string patterns. will print out the final
+		number and location of plate
+	Notes: String2() serves as the basis for analyzing the plate
+		arrays must not be empty.
+
+compare_row1()- Purpose:To compare the different strings created in the 
+		string1() and string2() functions. In while loops, the 2D 
+		arrays will be checked row by row to see if the patterns 
+		match up.
+	Arguments: two arrays images[][] and digits[][]
+	Returns: an integer, row1, which is the row position for the digits 
+		array where the comparison was true to string2()
+	Effects: does not change original array, simply prints out row pos
+	Notes: array cannot be empty.
+
+compare_col1()-  Purpose:Similar to the above function, however in this case 
+		the value returned is the position for the column,stored in 
+		the variable col1 for the digits array.
+	Arguments: two arrays: images[][] and digits[][]
+	Returns: an integer, col1, which is the column position for the
+		digits array to string2().
+	Effects: does not change original arrays, prints out col pos
+	Notes: arrays cannot be empty
+
+compare_row2()- Purpose: this function will have the same comparison as
+		row1(), however, it will return the row postion, row2, for 
+		the image  array back to string2().
+	Arguments: two arrays: images[][] and digits[][]
+	Returns: an integer, row2, that is the row position for the images
+		array to string2().
+	Effects: does not change original arrays, prints out row pos
+	Notes: arrays cannot be empty.
+
+compare_col2()- Purpose: the equivalent of compare_row1(), exept it is 
+		analyzed for the image array instead, where the integer, 
+		col2, returned will be the position of the column where 
+		the comparison was true.
+	Arguments: two arrays: images[][] and digits[][]
+	Returns: an integer, col2, that is the col position where the 
+		comparison was true for the images array, returns to string2().
+	Effects: does not change original arrays, prints out col pos
+	Notes: arrays cannot be empty
+
+find_num()-Purpose: To find the value of the number on the plate based on the
+		location of the two integers row1 and col1 that were passed 
+		from the digits array. It will take the first number, being 
+		the value from the digits array as [num]. The image array is 
+		used to find the position of said number.
+	Arguments: the position integers row1/2, and col1/2, the space 
+		between the numbers horiz, the height difference between
+		them, vert and two arrays. 
+	Returns: will return a string that says [num] @ [pos1+SPACE] 
+		[pos2+DIFF], where [num] comes from the digits array, and 
+		[pos1][pos2] comes from the image array. SPACE and DIFF are
+		the constants for the differences in space between the numbers
+		from spaces, and the differences in heights between numbers. 
+		This string is returned to the function string2().
+	Effects: does not modify array, returns string
+	Notes: strings cannot be empty
+
+horiz_spaces()- Purpose: this function will count the number of '.' characters 
+		that will serve the pupose of determining how far away the 
+		numbers are, and keeping this in order for varying horizontal 
+		spacing. Then when called again, it adds 5 to the current 
+		position each time is it called, and determines when the next
+		 # is and stores that position in the  array.
+	Returns: Will return the position at which it finds the first # char. 
+		 This function returns the integer for the [column] it is found
+	Effects: does not change array, returns an integer for spacing between
+		numbers.
+	Notes: Must have that condition will always be between 1 and width of 
+		the template.
+
+vert_spaces()- Purpose: this function will be within two for loops to search 
+		the array for the first # sign, taking that position into 
+		account. The next time it is called, it will add 7 
+		(the vertical height of the number) and check to see if there 
+		is any # characters present below. 
+	Returns: the row position if there are '#' characters below, and if 
+		not, it returns nothings and goes back to the previous 
+		function.
+	Effects: does not change array, returns an integer for vertical
+		spacing between numbers.
+	Notes: must have condition that the spacing will always be between 1
+		and the height (7) of any given digit.

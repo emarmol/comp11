@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+# set up files for comp11 lab 12 spring 2013
+#
+
+	SRC=/comp/11/files/lab12
+
+	for f in animals.o tsearch.cpp animals.h sumRec.cpp
+	do
+		cp $SRC/$f .
+	done

@@ -1,0 +1,99 @@
+Script started on Sat 25 Jan 2014 03:57:12 PM EST
+~/Desktop/comp11/hw2 > hostname
+dell24
+~/Desktop/comp11/hw2 > who
+dpisti01 pts/1        2014-01-25 15:13 (wr-130-64-177-245.medford.tufts.edu)
+pbriggs  pts/4        2014-01-24 11:59 (hrilab.tufts.edu)
+haocui   pts/6        2014-01-25 13:50 (wr-130-64-184-209.medford.tufts.edu)
+jcacca01 pts/7        2014-01-25 14:28 (resnet130-237.medford.tufts.edu)
+sgates01 pts/9        2014-01-25 15:33 (resnet130-237.medford.tufts.edu)
+kobrie08 pts/10       2014-01-25 13:41 (wr-130-64-190-12.medford.tufts.edu)
+apiel02  pts/16       2014-01-25 15:48 (wr-130-64-193-154.medford.tufts.edu)
+lday01   pts/17       2014-01-25 14:35 (wr-130-64-195-135.medford.tufts.edu)
+hhuang04 pts/12       2014-01-25 15:27 (c-98-216-129-236.hsd1.ma.comcast.net)
+apiel02  pts/14       2014-01-25 15:19 (wr-130-64-193-154.medford.tufts.edu)
+emarmo01 pts/18       2014-01-25 15:57
+rwb      pts/21       2014-01-25 13:44 (wr-130-64-181-242.medford.tufts.edu)
+haocui   pts/23       2014-01-25 13:51 (wr-130-64-184-209.medford.tufts.edu)
+ksingh03 pts/25       2014-01-25 15:24 (resnet161-119.medford.tufts.edu)
+mberko02 pts/26       2014-01-25 15:46 (wr-130-64-217-112.medford.tufts.edu)
+mmorov01 pts/27       2014-01-25 14:36 (38.122.127.226)
+susikp   pts/28       2014-01-25 10:28 (pool-100-0-96-224.bstnma.fios.verizon.net)
+kcorne02 pts/29       2014-01-25 14:26 (wr-130-64-98-195.medford.tufts.edu)
+apiel02  pts/30       2014-01-25 13:19 (wr-130-64-193-154.medford.tufts.edu)
+apiel02  pts/31       2014-01-25 10:45 (wr-130-64-193-154.medford.tufts.edu)
+haocui   pts/32       2014-01-25 13:52 (wr-130-64-184-209.medford.tufts.edu)
+ipatna01 pts/33       2014-01-25 15:39 (wr-130-64-219-118.medford.tufts.edu)
+jcacca01 pts/35       2014-01-25 15:53 (resnet130-237.medford.tufts.edu)
+haocui   pts/36       2014-01-25 15:13 (wr-130-64-184-209.medford.tufts.edu)
+iarora02 pts/37       2014-01-25 15:51 (wr-130-64-188-78.medford.tufts.edu)
+ksingh03 pts/39       2014-01-25 15:44 (localhost:10.0)
+rwb      pts/40       2014-01-25 15:50 (wr-130-64-181-242.medford.tufts.edu)
+sdenee01 pts/42       2014-01-25 15:18 (resnet159-153.medford.tufts.edu)
+avaidy02 pts/44       2014-01-25 15:48 (wr-130-64-188-173.medford.tufts.edu)
+caxelr01 pts/45       2014-01-25 15:38 (c-71-192-201-142.hsd1.ma.comcast.net)
+haocui   pts/47       2014-01-25 13:53 (wr-130-64-184-209.medford.tufts.edu)
+emarmo01 pts/48       2014-01-25 15:51 (wr-130-64-98-152.medford.tufts.edu)
+jmoral01 pts/49       2014-01-25 15:46 (10.245.143.49)
+tmodi01  pts/50       2014-01-25 15:52 (208-46-240-4.dia.static.qwest.net)
+cstone01 pts/53       2014-01-25 14:08 (wr-130-64-185-248.medford.tufts.edu)
+jsanch01 pts/56       2014-01-25 14:10 (wr-130-64-195-91.medford.tufts.edu)
+cchao01  pts/59       2014-01-25 14:29 (localhost:21.0)
+epaile01 pts/60       2014-01-25 14:17 (wr-130-64-218-191.medford.tufts.edu)
+jsanch01 pts/61       2014-01-25 14:18 (wr-130-64-195-91.medford.tufts.edu)
+ltahma01 pts/65       2014-01-25 14:29 (wr-130-64-218-224.medford.tufts.edu)
+mmorov01 pts/41       2014-01-25 14:37 (localhost:19.0)
+~/Desktop/comp11/hw2 > w
+ 15:57:24 up 154 days,  5:16, 43 users,  load average: 2.23, 2.32, 2.59
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+dpisti01 pts/1    wr-130-64-177-24 15:13   24:38   3.80s  2.53s emacs digits.cp
+pbriggs  pts/4    hrilab.tufts.edu Fri11   22:09m  0.07s  0.00s ./impcore
+haocui   pts/6    wr-130-64-184-20 13:50    2:05m 10.75s 10.69s java -jar Serve
+jcacca01 pts/7    resnet130-237.me 14:28   25:49   0.44s  0.00s ./digits
+sgates01 pts/9    resnet130-237.me 15:33   19:26   0.81s  0.73s emacs adder.cpp
+kobrie08 pts/10   wr-130-64-190-12 13:41    8:39   0.42s  0.30s emacs add8.cpp
+apiel02  pts/16   wr-130-64-193-15 15:48    5:55   0.07s  0.07s -tcsh
+lday01   pts/17   wr-130-64-195-13 14:35   47:40   0.11s  0.11s -tcsh
+hhuang04 pts/12   c-98-216-129-236 15:27    2:53   0.10s  0.10s -tcsh
+apiel02  pts/14   wr-130-64-193-15 15:19   11:32   0.20s  0.09s vim chance.pgm
+emarmo01 pts/18   -                15:57    0.00s  0.12s  0.10s w
+rwb      pts/21   wr-130-64-181-24 13:44    0.00s  0.27s  0.27s -tcsh
+haocui   pts/23   wr-130-64-184-20 13:51    2:04m  2:08m  2:08m java -jar Clien
+ksingh03 pts/25   resnet161-119.me 15:24   21:59   6.66s  6.56s kate fgroups.h
+mberko02 pts/26   wr-130-64-217-11 15:46    7:47   0.08s  0.08s -tcsh
+mmorov01 pts/27   38.122.127.226   14:36   38:55   8.22s  0.07s -tcsh
+susikp   pts/28   pool-100-0-96-22 10:28   23.00s  0.15s  0.05s python
+kcorne02 pts/29   wr-130-64-98-195 14:26   28:15   0.10s  0.10s -tcsh
+apiel02  pts/30   wr-130-64-193-15 13:19    1:52   1.12s  0.85s vim brightness.
+apiel02  pts/31   wr-130-64-193-15 10:45    1:23   2.64s  2.47s vim fgroups.c
+haocui   pts/32   wr-130-64-184-20 13:52    2:04m 10.08s 10.01s java -jar Serve
+ipatna01 pts/33   wr-130-64-219-11 15:39    6:06   0.09s  0.09s -tcsh
+jcacca01 pts/35   resnet130-237.me 15:53    2:18   0.61s  0.53s emacs add8_fina
+haocui   pts/36   wr-130-64-184-20 15:13    2:54   0.10s  0.10s -tcsh
+iarora02 pts/37   wr-130-64-188-78 15:51    4:07   0.55s  0.47s emacs digits.cp
+ksingh03 pts/39   localhost:10.0   15:44    4.00s  0.11s  0.11s -bin/tcsh
+rwb      pts/40   wr-130-64-181-24 15:50    3:35   0.07s  0.07s -tcsh
+sdenee01 pts/42   resnet159-153.me 15:18   16.00s  0.69s  0.57s emacs fgroups.c
+avaidy02 pts/44   wr-130-64-188-17 15:48    1:35   0.47s  0.39s emacs digits.cp
+caxelr01 pts/45   c-71-192-201-142 15:38   17:07   0.07s  0.07s -tcsh
+haocui   pts/47   wr-130-64-184-20 13:53    2:03m  2:07m  2:07m java -jar Clien
+emarmo01 pts/48   wr-130-64-98-152 15:51    0.00s  0.07s  0.00s script
+jmoral01 pts/49   10.245.143.49    15:46    2:25   0.57s  0.49s emacs digits.cp
+tmodi01  pts/50   208-46-240-4.dia 15:52   39.00s  0.92s  0.84s emacs digits.cp
+cstone01 pts/53   wr-130-64-185-24 14:08    2:10   0.14s  0.14s -tcsh
+jsanch01 pts/56   wr-130-64-195-91 14:10    1:40m  0.08s  0.00s write mtran04
+cchao01  pts/59   localhost:21.0   14:29   37.00s  0.09s  0.09s -csh
+epaile01 pts/60   wr-130-64-218-19 14:17    9.00s  0.24s  0.03s -bin/tcsh
+jsanch01 pts/61   wr-130-64-195-91 14:18    1:26m  0.12s  0.00s write mtran04
+ltahma01 pts/65   wr-130-64-218-22 14:29   30:01   0.17s  0.17s -tcsh
+mmorov01 pts/41   localhost:19.0   14:37   22:37   0.03s  0.03s -csh
+~/Desktop/comp11/hw2 > pwd
+/h/emarmo01/Desktop/comp11/hw2
+~/Desktop/comp11/hw2 > ls -l
+total 4
+-rw-------. 1 emarmo01 other 618 Jan 25 15:53 digits.cpp
+-rw-------. 1 emarmo01 other   0 Jan 25 15:57 typescript
+~/Desktop/comp11/hw2 > exit
+exit
+
+Script done on Sat 25 Jan 2014 03:57:45 PM EST
